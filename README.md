@@ -1,2 +1,0 @@
-# Homework.
-This is homework.
