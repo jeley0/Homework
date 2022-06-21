@@ -1,7 +1,5 @@
 # Строки
-
 # Делаем срезы
-
 a = input()
 print(a[2])  # 3-й символ
 print(a[-2])  # Предпоследний
@@ -14,12 +12,10 @@ print(a[::-2])  # Обратный порядок через 1
 print(len(a))  # Длина строки
 
 # Две половинки
-
 a = input()
 print(a[(len(a) + 1) // 2:] + a[:(len(a) + 1) // 2])
 
 # Обращение фрагмента
-
 n = input()
 a = n[:n.find('h')]
 b = n[n.find('h'):n.rfind('h') + 1]
@@ -27,7 +23,6 @@ c = n[n.rfind('h') + 1:]
 print(a + b[::-1] + c)
 
 # Первое и последнее вхождения
-
 a = input()
 if a.count('f') == 1:
     print(a.find('f'))
@@ -35,16 +30,13 @@ elif a.count('f') > 1:
     print(a.find('f'), a.rfind('f'))
 
 # Списки
-
 # Больше предыдущего
-
 a = [int(i) for i in input().split()]
 for i in range(1, len(a)):
     if a[i] > a[i - 1]:
         print(a[i])
 
 # Соседи одного знака
-
 a = [int(i) for i in input().split()]
 for i in range(1, len(a)):
     if a[i - 1] * a[i] > 0:
@@ -52,14 +44,12 @@ for i in range(1, len(a)):
         break
 
 # Переставить соединение
-
 a = [int(i) for i in input().split()]
 for i in range(1, len(a), 2):
     a[i - 1], a[i] = a[i], a[i - 1]
 print(' '.join([str(i) for i in a]))
 
 # Уникальные элементы
-
 a = [int(s) for s in input().split()]
 for i in range(len(a)):
     for j in range(len(a)):
@@ -69,7 +59,6 @@ for i in range(len(a)):
         print(a[i], end='\n')
 
 # Ферзи
-
 n = 8
 x = []
 y = []
