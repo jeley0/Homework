@@ -1,5 +1,4 @@
 # 1
-
 film = input()
 place = input()
 time = input()
@@ -7,7 +6,6 @@ time = input()
 print("Билет на \" " + film + " \" в \" " + place + " \" на " + time + " забронирован.")
 
 # 2
-
 a = input()
 b = input()
 
@@ -23,7 +21,6 @@ elif b != 'да' or b != 'нет' or a != 'да' or a != 'нет':
     print("НЕВЕРНО")
 
 # 3
-
 login = input()
 email = input()
 
@@ -33,11 +30,9 @@ else:
     print("Неверно")
 
 # 4
-
 print(input())
 
 # 5
-
 a = input()
 
 if a == "":
@@ -46,7 +41,6 @@ else:
     print("Нет")
 
 # 6
-
 number = int(input())
 
 a = number // 100
@@ -61,7 +55,6 @@ else:
     print("Жаль, вы ввели обычное число")
 
 # 7
-
 number = int(input())
 
 a = number // 1000
@@ -93,7 +86,6 @@ else:
     print(d + 10 * (c + 10 * (b + 10 * a)))
 
 # 8
-
 growth = input()
 n = 0
 MIN = 190
@@ -112,7 +104,6 @@ print(n)
 print(MIN, MAX)
 
 # 9
-
 ok = False
 
 while not ok:
@@ -130,7 +121,6 @@ while not ok:
 print("ОК")
 
 # 10
-
 x = "start"
 
 while x != "x":
@@ -160,8 +150,6 @@ while x != "x":
         print(number1)
 
 # 11
-
-
 n = int(input())
 
 for i in range(1, 2 * n, 2):
@@ -169,7 +157,6 @@ for i in range(1, 2 * n, 2):
     print(empty + "*" * i + empty)
 
 # 12
-
 n = int(input())
 
 q = 1
@@ -186,7 +173,6 @@ while q <= n:
 print()
 
 # 13
-
 a = int(input())  # ширина
 b = int(input())  # высота
 symbol = input()
